@@ -13,8 +13,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #3498db; /* Blue background color */
-    color: #fff; /* White font color */
+    background-color: #3498db; 
+    color: #fff;
   }
   
   .store-name h1 {
@@ -24,14 +24,14 @@
   }
   
   .store-name h1 strong {
-    margin-right: 10px; /* Adjust the spacing between "Baggage" and "Online Store" */
+    margin-right: 10px; 
   }
   
   .user-links button {
     margin-left: 20px;
     background-color: transparent;
-    border: 1px solid #fff; /* White border for buttons */
-    color: #fff; /* White color for button text */
+    border: 1px solid #fff; 
+    color: #fff; 
     padding: 8px 15px;
     cursor: pointer;
   }
@@ -40,12 +40,12 @@
     color: white;
   }
   .user-links button:hover {
-    background-color: #fff; /* White background on hover */
-    color: #3498db; /* Blue color on hover */
+    background-color: #fff; 
+    color: #3498db; 
   }
   .second-row {
-    background-color: #f8f9fa; /* Light background color for the second row */
-    border-bottom: 1px solid #e9ecef; /* Border below the second row */
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef; 
   }
   
   .second-row .container {
@@ -62,66 +62,66 @@
   
   .search-bar input[type="text"] {
     padding: 8px;
-    border: 1px solid #ced4da; /* Gray border for input */
+    border: 1px solid #ced4da;
     border-radius: 4px;
     margin-right: 10px;
   }
   
   .search-bar button {
     padding: 8px 15px;
-    border: 1px solid #3498db; /* Blue border for button */
+    border: 1px solid #3498db;
     border-radius: 4px;
-    background-color: #3498db; /* Blue background color for button */
-    color: #fff; /* White color for button text */
+    background-color: #3498db; 
+    color: #fff; 
     cursor: pointer;
   }
   
   .search-bar button:hover {
-    background-color: #fff; /* White background on hover */
-    color: #3498db; /* Blue color on hover */
+    background-color: #fff; 
+    color: #3498db;
   }
   /* Existing styles */
 
 /* Styles for smaller screens (mobile devices) */
 @media only screen and (max-width: 600px) {
     .container {
-      padding: 10px; /* Reduce padding for smaller screens */
+      padding: 10px; 
     }
   
     .store-name h1 {
-      font-size: 20px; /* Decrease font size for store name */
+      font-size: 20px; 
     }
   
     .user-links button {
-      margin-left: 10px; /* Adjust button margin for smaller screens */
+      margin-left: 10px;
     }
   
     .second-row .container {
-      padding: 10px; /* Reduce padding for smaller screens */
+      padding: 10px; 
     }
   
     .hamburger-icon {
-      font-size: 18px; /* Decrease font size for hamburger icon */
+      font-size: 18px; 
     }
   
     .search-bar input[type="text"] {
-      width: 70%; /* Adjust input width for smaller screens */
+      width: 70%; 
     }
   
     .search-bar button {
-      width: 30%; /* Adjust button width for smaller screens */
-      margin-right: 0; /* Remove right margin for button */
+      width: 30%; 
+      margin-right: 0;
     }
     .image-container {
         max-width: 100%;
         overflow: hidden;
-        margin-top: 20px; /* Add margin for spacing */
+        margin-top: 20px; 
       }
     
       .image-container img {
         width: 100%;
         height: auto;
-        display: block; /* Ensures the image is centered within its container */
+        display: block; 
       }
   }
   
