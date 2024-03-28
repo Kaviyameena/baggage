@@ -1,0 +1,1 @@
+Welcome to Baggage Online Store! We're thrilled to have you here. This repository contains all the information you need to get started with our online bag store, including installation instructions, usage guidelines, and more.

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baggage Online Store</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="store-name">
+      <h1><strong> Baggage </strong></h1>
+      <h2>Online Store</h2>
+    </div>
+    <div class="user-links">
+        <button>Sign in</button>
+        <button>Sign up</button>
+    </div>
+  </div>
+</header><hr>
+<div class="second-row">
+    <div class="container">
+      <div class="hamburger-icon user-links">
+        <button id="toggleNav">&#9776;</button>
+      </div>
+      <div class="search-bar">
+        <br>
+        <input type="text" placeholder="Search...">
+      </div>
+    </div>
+  </div>
+  <div class="third-row">
+    <div class="container">
+        <h5>THE LARGEST RANGE OF HANDBAGS</h5><br>
+        <div class="user-links red1">
+             <button>SHOP NOW</button>
+        </div>
+    </div>
+  </div>
+  <div class="fourth-row">
+    <div class="container">
+        <img src="./images/bag.png" alt="bag image">
+    </div>
+  </div>
+  <div id="sidebar" class="sidebar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#service">Service</a>
+    <a href="#collection">Collection</a>
+    <a href="#contact">Contact</a>
+    <span class="close-btn">&times;</span>
+  </div>
+<main>
+  <!-- Your main content goes here -->
+  <br><br><br><br>
+  <div class="content">
+    <h3>FAST & FREE DELIVERY</h3><br>
+    <p>Lorem ipsum dolor sit,Nulla pellentesque dolor ipsum laoreet eleifend integer,Pellentesque maximus libero.
+    </p><br>
+    <h3>SAFE & SECURE PAYMENTS</h3><br>
+
+    <p>Lorem ipsum dolor sit,Nulla pellentesque dolor ipsum laoreet eleifend integer,Pellentesque maximus libero.
+    </p><br>
+    <h3>100% MONEY BACK GUARANTEE</h3><br>
+
+    <p>Lorem ipsum dolor sit,Nulla pellentesque dolor ipsum laoreet eleifend integer,Pellentesque maximus libero.
+    </p><br><br><br>
+</div>
+<div class="content">
+  <img src="./images/g2.jpg" alt="bag img"><br><br>
+  <h4>TRAVEL MUST HAVES</h4><br>
+    <p>Lorem ipsum dolor sit,Nulla pellentesque dolor ipsum laoreet eleifend integer,Pellentesque maximus libero.
+    </p><br>
+    <div class="user-links red1">
+      <button>SHOP NOW</button>
+    </div>
+
+</div>
+<div class="content">
+  <br><br>
+  <h4><b>SAFETY MEETS STYLE</b></h4><br><br>
+  <img src="./images/c1.jpg" alt="bag image"><br><br>
+  <h4>NEED EXTRA SPACE</h4><br><br>
+  <p>Lorem ipsum dolor sit,Nulla pellentesque dolor ipsum laoreet eleifend integer,Pellentesque maximus libero.</p><br><br>
+  <div class="user-links red1">
+    <button>SHOP NOW</button>
+  </div><br><br>
+  
+</div>
+<div class="content">
+  <img src="./images/c2.jpg" alt="bag"><br><br><br>
+</div>
+<div class="content">
+  <img src="./images/g2.jpg" alt="g2">
+  <img src="./images/g6.jpg" alt="g2"><br><br>
+  
+</div>
+<div class="content">
+  <h3>TRENDING NOW</h3><br>
+  <p>Lorem ipsum dolor sit,Nulla pellentesque dolor ipsum laoreet eleifend integer,Pellentesque maximus libero.</p><br><br>
+  <div class="user-links red1">
+    <button>SHOP NOW</button>
+  </div>
+
+
+</div>
+<div class="content">
+  <img src="./images/g1.jpg" alt="g1">
+  <img src="./images/g2.jpg" alt="g2">
+  <img src="./images/g3.jpg" alt="g3">
+  <img src="./images/g4.jpg" alt="g4">
+
+  <img src="./images/g5.jpg" alt="g5">
+  <img src="./images/g6.jpg" alt="g6"><br><br><br><br>
+  
+</div>
+<div class="content">
+  <p>Subscribe to the Handbags Store mailing list to receive updates on new arrivals, special offers and other discount information</p><br><br>
+  <p></p>
+  <div class="search-bar">
+    <input type="text" placeholder="Enter Your Email"><br><br>
+    <button type="submit">Subscribe</button><br><br>
+
+  </div>
+</div>
+
+<div class="content bg">
+  <br><i class="fas fa-car"></i><br><br>
+  <h3>FREE SHIPPING</h3><br>
+  <p>On all orders above $2000</p><br><hr>
+</div>
+<div class="content bg">
+  <br><i class="fa fa-bullhorn"></i><br><br>
+  <h3>FREE RETURN</h3><br>
+  <p>On 1st exchange in 30 days</p><br><hr>
+</div>
+<div class="content bg">
+  <br><i class="fas fa-gift"></i><br><br>
+  <h3>MEMBER DISCOUNT</h3><br>
+  <p>Register & save up to 29%</p><br><hr>
+</div>
+
+</main>
+<footer>
+  <!-- Your footer content goes here -->
+</footer>
+<script>
+document.getElementById('toggleNav').addEventListener('click', function() {
+  console.log('Hamburger icon clicked');
+  document.getElementById('sidebar').style.width = '250px';
+});
+
+document.querySelector('.close-btn').addEventListener('click', function() {
+  console.log('Close button clicked');
+  document.getElementById('sidebar').style.width = '0';
+});
+
+</script>
+
+</body>
+</html>
