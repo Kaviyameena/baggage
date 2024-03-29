@@ -177,3 +177,16 @@ right: 10px;
 font-size: 20px;
 cursor: pointer;
 }
+.side ul {
+  list-style-type: disc; /* Use disc for filled bullets, circle for empty bullets, or square for square bullets */
+  margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.side li {
+  margin-bottom: 5px; /* Optional: Add some spacing between list items */
+}
+
+.blue i{
+  color:blue;
+  font-size: 20px;
+}
